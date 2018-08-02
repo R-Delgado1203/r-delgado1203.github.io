@@ -30,7 +30,7 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100.4%;
+	width: 100%;
 	height: auto;
 	border-bottom: 2px solid #cccccc;
     background-color: #ffffff;    
@@ -108,7 +108,7 @@ header {
 .info {
 	display: inline-block;
 	width: 875px;
-	margin: 80px 0;
+	margin: 150px auto auto auto;
 	padding: 50px;
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
@@ -192,4 +192,5 @@ footer {
 	color: #cccccc;
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
+	margin-top: 23px;
 }
