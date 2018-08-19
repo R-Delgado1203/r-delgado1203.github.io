@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Rolando Delgado Jr.</title>
+  <title>Contact | Rolando Delgado Jr.</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -24,23 +24,33 @@
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
 
-      <img src="assets/images/wedding.jpg" class="auth-image" alt="Rolando Delgado Jr.">
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-      <p>Hey, thanks for stopping by! My name is Rolando, and I'm web developer(in training).</p>
-
-      <p>I am currently a student with the University of Arizona Coding Bootcamp, working towards a Full-stack web development
-        cetification.
-      </p>
-      <p>I have a huge passion for technology and hope you enjoy my work!</p>
     </section>
 
   </div>
 
   <footer>
     <div class="container">
-      Copyright 2018. &copy;
+      Copyright 2018. &copy; 
     </div>
   </footer>
 </body>
